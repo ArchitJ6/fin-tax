@@ -1,0 +1,13 @@
+.footer{
+    width: 100vw;
+    height: 4rem;
+    background: var(--violet);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    font-size: medium;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+}
