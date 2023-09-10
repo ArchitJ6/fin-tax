@@ -1,11 +1,11 @@
 import React from 'react'
-import "./Footer.css"
+import './Footer.css'
 
 function Footer() {
   return (
-    <div>
-      
-    </div>
+    <footer className='footer'>
+        Copyright &#169; 2023 Taxquilt. All right reserved.
+    </footer>
   )
 }
 
