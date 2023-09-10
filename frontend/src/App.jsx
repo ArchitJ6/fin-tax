@@ -6,18 +6,20 @@ import Home from "../src/components/home/Home"
 import About from "../src/components/about/About"
 import Contact from "../src/components/contact/Contact"
 import Footer from "../src/components/footer/Footer"
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+import Login from './components/userpage/login'
+
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-    <Navbar/>
-    <Hero/>
-    <Home/>
-    <About/>
-    <Contact/>
-    <Footer/>
+        <BrowserRouter>
+            <Routes>
+                <Route exact path={'/'} element={ <><Navbar/><Hero/><Home/><About/><Contact/><Footer/></> } />
+                <Route exact path={'/login'} element={ <><Login/></> } />
+            </Routes>
+        </BrowserRouter>
     </>
   )
 }
