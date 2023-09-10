@@ -11,7 +11,7 @@ function Hero() {
           <div className="col-md-6 pl-md-5 content">
             <h2>Get <span>Financial </span>Advice<span> Anytime</span>, Anywhere.</h2>
             <h3>Chat with our AI finacial chatbot to get <br />instant finacial information and assistance.</h3>
-            <a href="/chat"><button className="button">Chat Now</button></a>
+            <a href="/chat"><button className="button">Get Started</button></a>
           </div>
         </div>
     </section>
